@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+:root {
+  --dark: #19181f;
+  --white: #ffffff;
+  --new-black: #1e1e26;
+  --new-purple: #67159c;
+  --new-green: #07d962;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark);
+  font-family: "DM Sans", sans-serif;
+}
+
+h1 {
+  color: var(--white);
+  text-align: center;
+  margin-top: 10vh;
+  text-transform: uppercase;
+}
+
+p {
+  color: var(--white);
+  text-align: center;
+  margin-top: 1.125rem;
+  text-transform: uppercase;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  gap: 6.25rem;
+}
+
+button {
+  padding: 5rem;
+  border-radius: 0.5rem;
+  border: 8px solid var(--new-purple);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #07d962;
+  transition: background-color 0.5s ease-in-out;
+}
+
+button i {
+  font-size: 5rem;
+  color: #67159c;
+}
+
+.start-game {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
