@@ -1,7 +1,7 @@
 const choices = ["rock", "paper", "scissors"];
 let winners = [];
 
-const game = () => {
+const startGame = () => {
   let icons = document.querySelectorAll("i");
   icons.forEach((icon) =>
     icon.addEventListener("click", () => {
@@ -11,18 +11,6 @@ const game = () => {
     })
   );
 };
-game();
-function startGame() {
-  //play the game until someone wins 5 times
-  let imgs = document.querySelectorAll("img");
-  imgs.forEach((img) =>
-    img.addEventListener("click", () => {
-      if (img.id) {
-        playRound(img.id);
-      }
-    })
-  );
-}
 
 function resetGame() {
   winners = [];
