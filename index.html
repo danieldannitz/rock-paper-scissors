@@ -5,35 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./app.css" />
-
     <title>Odin Project - Rock Paper Scissors</title>
   </head>
   <body>
-    <h1>Choose a button</h1>
-    <div class="start-game">
-      <div>
-        <button onClick="game()">!</button>
-        <p>Start Game</p>
+    <div class="wrapper">
+      <div class="score">
+        <h1 class="ties">Ties: 0</h1>
       </div>
-    </div>
-    <div class="button-container">
-      <div>
-        <button class="rock" onclick="">
-          <i class="fa-regular fa-hand-back-fist"></i>
-        </button>
-        <p>Rock</p>
+      <div class="winnerDiv">
+        <h1 class="winner"></h1>
+        <button class="reset" onclick="resetGame()">Play Again?</button>
       </div>
-      <div>
-        <button class="paper">
-          <i class="fa-regular fa-hand"></i>
-        </button>
-        <p>Paper</p>
+      <div class="playerSection">
+        <h3 class="playerChoice"></h3>
+        <h3 class="playerScore">Score: 0</h3>
+        <div class="playerImgs">
+          <i class="fa-solid fa-hand-back-fist" id="rock"></i>
+          <i class="fa-solid fa-hand" id="paper"></i>
+          <i class="fa-solid fa-hand-scissors" id="scissors"></i>
+        </div>
       </div>
-      <div>
-        <button class="scissors">
-          <i class="fa-regular fa-hand-scissors"></i>
-        </button>
-        <p>Scissors</p>
+      <div class="computerSection">
+        <h3 class="computerChoice"></h3>
+        <h3 class="computerScore">Score: 0</h3>
+        <div class="computerImgs">
+          <i class="fa-solid fa-hand-back-fist" id="rock"></i>
+          <i class="fa-solid fa-hand" id="paper"></i>
+          <i class="fa-solid fa-hand-scissors" id="scissors"></i>
+        </div>
       </div>
     </div>
   </body>

@@ -22,7 +22,7 @@ body {
 h1 {
   color: var(--white);
   text-align: center;
-  margin-top: 10vh;
+  margin-top: 5vh;
   text-transform: uppercase;
 }
 
@@ -33,32 +33,47 @@ p {
   text-transform: uppercase;
 }
 
-.button-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 10vh;
-  gap: 6.25rem;
+.playerSection,
+.computerSection {
+  margin-top: 5vh;
+  color: #fff;
+  text-align: center;
 }
 
-button {
-  padding: 5rem;
-  border-radius: 0.5rem;
-  border: 8px solid var(--new-purple);
+i {
+  padding: 2rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-left: 2.375rem;
+  color: var(--new-black);
+  border: 0.25rem solid var(--new-purple);
+  background-color: var(--white);
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #07d962;
-  transition: background-color 0.5s ease-in-out;
+i:hover {
+  background-color: var(--new-green);
+  transition: background-color 0.2s ease-in-out;
 }
 
-button i {
-  font-size: 5rem;
-  color: #67159c;
+.ties,
+.playerScore,
+.computerScore {
+  transition: text 0.2s ease-in-out;
 }
 
-.start-game {
-  display: flex;
-  justify-content: center;
-  margin-top: 5rem;
+.reset {
+  display: block;
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border: 0.25rem solid var(--new-purple);
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+.reset:hover {
+  background-color: var(--new-green);
+  transition: background-color 0.2s ease-in-out;
 }
