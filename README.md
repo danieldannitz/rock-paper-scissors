@@ -1,1 +1,2 @@
--> https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors
+Made by following the instructions from: https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors
+Demo: https://danieldannitz.github.io/rock-paper-scissors/
