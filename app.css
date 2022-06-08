@@ -56,12 +56,6 @@ i:hover {
   transition: background-color 0.2s ease-in-out;
 }
 
-.ties,
-.playerScore,
-.computerScore {
-  transition: text 0.2s ease-in-out;
-}
-
 .reset {
   display: block;
   margin: 0 auto;
